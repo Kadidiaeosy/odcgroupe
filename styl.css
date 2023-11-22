@@ -1,0 +1,54 @@
+body{
+    font-family: sans serif calibri gothic century;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    position: fixed;
+    background: gray;
+    /*min-height: 50px;*/
+    width: 100%;
+    display: flex;
+    padding: 0 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    top: 0;
+}
+nav .logo{
+    border: solid 1px;
+    padding: 0 5px 0 5px;
+    height: 35px;
+    text-align: center;
+    display: flex;
+    border-color: brown;
+    border-radius: 20px 2px;
+    background: white;
+}
+
+.logo h3 span{
+    color: green;
+}
+.nav_bar{
+    margin: 0 auto;
+}
+nav li, a{
+    list-style: none;
+    text-decoration: none;
+}
+nav ul{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+}
+nav li{
+    padding: 2px;
+    margin: 0 4px;
+}
+nav li a{
+    color: beige;
+    letter-spacing: 1px;
+}
